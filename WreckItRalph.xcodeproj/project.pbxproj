@@ -7,21 +7,27 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		9B16916D21AC117B00973903 /* Role.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B16916C21AC117B00973903 /* Role.swift */; };
 		9BFE149521A6E30E00FE02CE /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BFE149421A6E30E00FE02CE /* AppDelegate.swift */; };
-		9BFE149721A6E30E00FE02CE /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BFE149621A6E30E00FE02CE /* ViewController.swift */; };
 		9BFE149A21A6E30E00FE02CE /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9BFE149821A6E30E00FE02CE /* Main.storyboard */; };
 		9BFE149C21A6E30F00FE02CE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9BFE149B21A6E30F00FE02CE /* Assets.xcassets */; };
 		9BFE149F21A6E30F00FE02CE /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9BFE149D21A6E30F00FE02CE /* LaunchScreen.storyboard */; };
+		9BFE14A721A6E33D00FE02CE /* RoleTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BFE14A621A6E33D00FE02CE /* RoleTableViewController.swift */; };
+		9BFE14A921A6E5B000FE02CE /* RoleViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BFE14A821A6E5B000FE02CE /* RoleViewController.swift */; };
+		DDAD0A2921BF3AB800C37D92 /* EditRoleTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DDAD0A2821BF3AB800C37D92 /* EditRoleTableViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		9B16916C21AC117B00973903 /* Role.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Role.swift; sourceTree = "<group>"; };
 		9BFE149121A6E30E00FE02CE /* SendData.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SendData.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		9BFE149421A6E30E00FE02CE /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		9BFE149621A6E30E00FE02CE /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		9BFE149921A6E30E00FE02CE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		9BFE149B21A6E30F00FE02CE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		9BFE149E21A6E30F00FE02CE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		9BFE14A021A6E30F00FE02CE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9BFE14A621A6E33D00FE02CE /* RoleTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RoleTableViewController.swift; sourceTree = "<group>"; };
+		9BFE14A821A6E5B000FE02CE /* RoleViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RoleViewController.swift; sourceTree = "<group>"; };
+		DDAD0A2821BF3AB800C37D92 /* EditRoleTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EditRoleTableViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -38,7 +44,7 @@
 		9BFE148821A6E30E00FE02CE = {
 			isa = PBXGroup;
 			children = (
-				9BFE149321A6E30E00FE02CE /* SendData */,
+				9BFE149321A6E30E00FE02CE /* WreckItRalph */,
 				9BFE149221A6E30E00FE02CE /* Products */,
 			);
 			sourceTree = "<group>";
@@ -51,17 +57,20 @@
 			name = Products;
 			sourceTree = "<group>";
 		};
-		9BFE149321A6E30E00FE02CE /* SendData */ = {
+		9BFE149321A6E30E00FE02CE /* WreckItRalph */ = {
 			isa = PBXGroup;
 			children = (
 				9BFE149421A6E30E00FE02CE /* AppDelegate.swift */,
-				9BFE149621A6E30E00FE02CE /* ViewController.swift */,
 				9BFE149821A6E30E00FE02CE /* Main.storyboard */,
+				DDAD0A2821BF3AB800C37D92 /* EditRoleTableViewController.swift */,
+				9BFE14A821A6E5B000FE02CE /* RoleViewController.swift */,
+				9BFE14A621A6E33D00FE02CE /* RoleTableViewController.swift */,
+				9B16916C21AC117B00973903 /* Role.swift */,
 				9BFE149B21A6E30F00FE02CE /* Assets.xcassets */,
 				9BFE149D21A6E30F00FE02CE /* LaunchScreen.storyboard */,
 				9BFE14A021A6E30F00FE02CE /* Info.plist */,
 			);
-			path = SendData;
+			path = WreckItRalph;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -99,7 +108,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 9BFE148C21A6E30E00FE02CE /* Build configuration list for PBXProject "SendData" */;
+			buildConfigurationList = 9BFE148C21A6E30E00FE02CE /* Build configuration list for PBXProject "WreckItRalph" */;
 			compatibilityVersion = "Xcode 9.3";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -135,8 +144,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				9BFE149721A6E30E00FE02CE /* ViewController.swift in Sources */,
 				9BFE149521A6E30E00FE02CE /* AppDelegate.swift in Sources */,
+				DDAD0A2921BF3AB800C37D92 /* EditRoleTableViewController.swift in Sources */,
+				9BFE14A721A6E33D00FE02CE /* RoleTableViewController.swift in Sources */,
+				9BFE14A921A6E5B000FE02CE /* RoleViewController.swift in Sources */,
+				9B16916D21AC117B00973903 /* Role.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -283,12 +295,12 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				INFOPLIST_FILE = SendData/Info.plist;
+				INFOPLIST_FILE = WreckItRalph/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.peter.SendData;
+				PRODUCT_BUNDLE_IDENTIFIER = com.gmb728.WreckItRalph;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -300,12 +312,12 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				INFOPLIST_FILE = SendData/Info.plist;
+				INFOPLIST_FILE = WreckItRalph/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.peter.SendData;
+				PRODUCT_BUNDLE_IDENTIFIER = com.gmb728.WreckItRalph;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -315,7 +327,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		9BFE148C21A6E30E00FE02CE /* Build configuration list for PBXProject "SendData" */ = {
+		9BFE148C21A6E30E00FE02CE /* Build configuration list for PBXProject "WreckItRalph" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				9BFE14A121A6E30F00FE02CE /* Debug */,

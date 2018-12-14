@@ -1,9 +1,9 @@
 //
 //  AppDelegate.swift
-//  SendData
+//   WreckItRalph
 //
-//  Created by SHIH-YING PAN on 2018/11/22.
-//  Copyright © 2018 SHIH-YING PAN. All rights reserved.
+// Created by Chang Sophia on 11/26/18.
+//  Copyright © 2018 Chang Sophia. All rights reserved.
 //
 
 import UIKit
